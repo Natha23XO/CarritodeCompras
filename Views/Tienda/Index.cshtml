@@ -1,0 +1,380 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout_Tienda.cshtml";
+}
+
+<style>
+    .marca-card {
+        display: inline-block;
+        width: 10%;
+    }
+
+    .marca-img {
+        width: 100%; /* Para asegurarse de que la imagen llene completamente su contenedor */
+        height: auto;
+        cursor: pointer;
+        border-radius: 5rem;
+    }
+
+    .marca-nombre {
+        display: block;
+        color: gray;
+        text-align: center;
+        margin-top: 5px; /* Ajusta según tu preferencia para el espacio entre la imagen y el nombre */
+    }
+
+    .producto:hover {
+        cursor: pointer;
+    }
+
+    .card:hover img {
+        transform: scale(1.1);
+        transition: transform 0.5s;
+    }
+
+    .card img {
+        transition: transform 0.3s;
+    }
+
+    .btn-agregar-carrito {
+        opacity: 0;
+        transition: display 0.5s;
+        background-color: #FC9404;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+        .btn-agregar-carrito:hover {
+            background-color: #E17E00;
+            color: #fff;
+        }
+
+    
+    .card:hover .btn-agregar-carrito {
+        opacity: 1;
+    }
+
+    .card:hover .btn-registro {
+        opacity: 1;
+    }
+
+    .text-gray {
+        color: gray;
+    }
+
+    .text-gray-a {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .text-gray-a:hover {
+            color: gray;
+            text-decoration: underline;
+    }
+    .btn-registro{
+        opacity: 0;
+        transition: display 0.5s;
+        background-color: #FC9404;
+        color: #fff;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .btn-registro:hover{
+        background-color: #E17E00;
+        color: #fff;
+    }
+    .btn-marcas {
+        transition: display 0.5s;
+        background-color: white;
+        color: gray;
+        padding: 12px 24px;
+        border: 1px solid #FC9404;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+        .btn-marcas:hover {
+            background-color: #E17E00;
+            color: #fff;
+        }
+</style>
+<div class="mt-1">
+    <div class="text-center">
+        <span class="text-gray">
+            <a href="@Url.Action("Index","Tienda")" class="text-gray-a text-gray">Inicio</a>
+            <i class="fa-solid fa-angle-right mx-3 text-gray"></i>
+            Productos
+        </span>
+    </div>
+</div>
+<div class="row mt-3">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Imagenes/Sliders/slider1.jpg" class="d-block w-100 h-50" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Imagenes/Sliders/slider2.jpg" class="d-block w-100 h-50" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Imagenes/Sliders/slider3.jpg" class="d-block w-100 h-50" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<br />
+<div class="mx-auto" style="width:95%">
+    <div class="row">
+        <div class="text-center">
+            <h3 class="marca-nombre">Selecciona la marca a tu gusto</h3>
+            <div class="row row-marca gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+<div class="mx-auto" style="width:70%">
+    <div class="row">
+        <!--div class="col-lg-2">
+           <div class="row row-marcas " >
+
+           </div>
+        </div!-->
+        <!--col-lg-9 ms-3-->
+        <div class="">
+            <h3 class="marca-nombre">Productos</h3>
+            <br />
+            <div id="catalogo-productos" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section>
+    <div class="modal-box">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <h2>Advertencia</h2>
+        <h3>Porfavor registrese o ingrese antes de comprar!</h3>
+
+        <div class="buttons">
+            <a href="@Url.Action("Index","Login")" class="close-btn btn-modal">Ok</a>
+        </div>
+    </div>
+</section>
+s
+@section scripts {
+
+    <script>
+
+
+        $(".btn-ver-categoria").click(function () {
+            jQuery.ajax({
+                url: '@Url.Action("ListarCategoria", "Tienda")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    $(".row-categoria").html("");
+                    $(".modal-body").LoadingOverlay("hide");
+                    if (data.data != null) {
+                        $("<div>").addClass("col-4").append(
+                            $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text("Ver Todos").attr({ "onclick": "listarProductos(0)" })
+                        ).appendTo(".row-categoria")
+
+                        $.each(data.data, function (i, item) {
+                            $("<div>").addClass("col-4").append(
+                                $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text(item.Descripcion).attr({ "onclick": "listarProductos(" + item.IdCategoria + ")" })
+                            ).appendTo(".row-categoria")
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                    $(".modal-body").LoadingOverlay("show");
+                },
+            });
+
+            $('#exampleModal').modal('show');
+        });
+
+        $(document).ready(function () {
+            listarProductos(0);
+            listarMarca()
+        })
+
+        /*$(document).on('click', '.btn-detalle', function (event) {
+            var item = $(this).data("elemento")
+            window.location.href = "@Url.Action("Producto", "Tienda")" + "?idproducto=" + item.IdProducto;
+        });*/
+        $(document).on('click', '.btn-detalle', function (event) {
+            var item = $(this).data("elemento");
+            console.log(item); // Depuración: Imprime el objeto para verificar su contenido
+            if (item && item.idProducto) {
+                window.location.href = "@Url.Action("Producto", "Tienda")" + "?idproducto=" + item.idProducto;
+            } else {
+                console.error("No se pudo obtener el ID del producto. Objeto recibido:", item);
+            }
+        });
+
+        function listarMarca() {
+            jQuery.ajax({
+                url: '@Url.Action("ListarMarcas", "Tienda")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    var marcasContainer = $(".row-marca");
+                    marcasContainer.html("");
+
+                    if (data.data != null) {
+                        $("<div>")
+                            .addClass("marca-card")
+                            .append($("<img>")
+                                .addClass("marca-img")
+                                .attr({ "src": "/Imagenes/Botones/VerTodos.jpg", "alt": "Ver Todos" })
+                                .on("click", function () {
+                                    listarProductos(0);
+                                })
+                            )
+                            .append($("<span>")
+                                .addClass("marca-nombre")
+                                .text("VER TODOS"))
+                            .appendTo(marcasContainer);
+
+                        $.each(data.data, function (i, item) {
+                            $("<div>")
+                                .addClass("marca-card")
+                                .append($("<img>")
+                                    .addClass("marca-img")
+                                    .attr({ "src": "/Imagenes/Botones/" + item.descripcion + ".jpg", "alt": item.descripcion })
+                                    .on("click", function () {
+                                        listarProductos(item.idMarca);
+                                    })
+                                )
+                                .append($("<span>")
+                                    .addClass("marca-nombre")
+                                    .text(item.descripcion))
+                                .appendTo(marcasContainer);
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        }
+
+        
+
+
+        $(document).on('click', '.btn-categoria', function (event) {
+            $('#exampleModal').modal('hide');
+        });
+
+        
+
+        function listarProductos(_idmarca) {
+            var request = new FormData();
+            request.append("objeto", JSON.stringify(_idmarca));
+            jQuery.ajax({
+                url: '@Url.Action("ListarProducto", "Tienda")',
+                type: "POST",
+                data: request,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    $("#catalogo-productos").html("");
+
+                    $("#catalogo-productos").LoadingOverlay("hide");
+                    if (data.data != null) {
+
+                        $.each(data.data, function (i, item) {
+                            //catalogo-productos
+                            $("<div>").addClass("col mb-5").append(
+                                $("<div>").addClass("card h-100").append(
+                                    $("<img>").addClass("card-img-top btn-detalle producto").attr({ "src": "data:image/" + item.extension + ";base64," + item.base64, "data-elemento": JSON.stringify(item) }),
+                                    //Product details
+                                    $("<div>").addClass("card-body p-4").append(
+                                        $("<div>").addClass("text-center").append(
+                                            $("<h5>").addClass("fw-bolder").text(item.nombre),
+                                            "S/. " + item.precio
+                                        )
+                                    ),
+                                    //Product actions
+                                    $("<div>").addClass("card-footer p-4 pt-0 border-top-0 bg-transparent").append(
+                                        $("<div>").addClass("d-grid d-md-grid gap-2 d-md-block align-items-center text-center").append(
+        @{
+            if (ViewBag.admin == "USER")
+            {
+                    @:$("<button>").addClass("btn btn-outline-dark mt-auto btn-agregar-carrito").data("idproducto", item.idProducto).text("Agregar al carrito").attr({ "data-idProducto": JSON.stringify(item.idProducto) }),
+            }
+            else
+            {
+                @:$("<button>").addClass("btn-registro").text("Agregar al carrito"),
+
+            }
+        }
+
+
+                                                                        )
+                                    )
+                                )
+
+                            ).appendTo("#catalogo-productos");
+                        });
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+                    $("#catalogo-productos").LoadingOverlay("show");
+                },
+            });
+        }
+
+        function AbrirModalConfirmarVenta() {
+            const section = document.querySelector("section"),
+                overlay = document.querySelector(".overlay"),
+                showBtn = document.querySelector(".show-modal"),
+                closeBtn = document.querySelector(".close-btn");
+
+            section.classList.add("active");
+
+        }
+
+        $(document).on('click', '.btn-registro', function (event) {
+            AbrirModalConfirmarVenta()
+        });
+
+    </script>
+
+
+
+}

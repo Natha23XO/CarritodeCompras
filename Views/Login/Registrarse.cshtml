@@ -1,0 +1,112 @@
+﻿@model AppProyecto.Models.Usuario
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AppProyecto.styles.css" asp-append-version="true" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Crear cuenta </title>
+    <style>
+        .btn-primary {
+            background-color: #a5c9c9;
+            border-color: #a5c9c9;
+        }
+
+            .btn-primary:hover {
+                background-color: #95b3b3;
+                border-color: #95b3b3;
+            }
+
+        .card {
+            border-radius: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 400px;
+            margin-top: 25px; /* Ajusta el margen superior */
+            padding: 20px; /* Añade algo de relleno */
+            text-align: center; /* Centra el contenido */
+        }
+
+        .card-header {
+            padding: 10px;
+            display: flex;
+            justify-content: center; /* Alinear el contenido al centro */
+            align-items: center;
+            width: 100%; /* Establecer el ancho del texto al 100% */
+            font-size: 2em; /* Ajusta el tamaño de la fuente */
+            margin-bottom: 20px; /* Agrega margen inferior */
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to bottom right, #79a7d3, #a7d3a5);">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container d-flex justify-content-center align-items-center" style="height:100vh;">
+                    <div class="card shadow-lg">
+                        <div class="card-header" style="font-family: 'Arial', sans-serif; font-size: 1.4em; font-weight: bold; color: black;">
+                            Regístrate
+                        </div>
+                        <div class="text-center mb-4">
+                            <img src="https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg" alt="Imagen de usuario" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;  color: black;">
+                        </div>
+                        <form action="@Url.Action("Registrarse","Login")" method="post">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="inputFirstName" name="NNombres" type="text" placeholder="Nombres" value="@Html.DisplayTextFor(model => model.Nombres)" />
+                                <label for="inputFirstName">Nombres</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="inputLastName" name="NApellidos" type="text" placeholder="Apellidos" value="@Html.DisplayTextFor(model => model.Apellidos)" />
+                                <label for="inputLastName">Apellidos</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="inputEmail" type="email" name="NCorreo" placeholder="name@example.com" value="@Html.DisplayTextFor(model => model.Correo)" />
+                                <label for="inputEmail">Correo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="inputPassword" name="NContrasena" type="password" placeholder="Contraseña" value="@Html.DisplayTextFor(model => model.Contrasena)" />
+                                <label for="inputPassword">Contraseña</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="inputPasswordConfirm" name="NConfirmarContrasena" type="password" placeholder="Confirmar contraseña" value="@Html.DisplayTextFor(model => model.ConfirmarContrasena)" />
+                                <label for="inputPasswordConfirm">Confirmar Contraseña</label>
+                            </div>
+                            <div class="form-floating">
+                                @{
+                                    if (ViewBag.Error != null)
+                                    {
+                                        <div class="alert alert-danger" role="alert">
+                                            @ViewBag.Error
+                                        </div>
+                                    }
+                                }
+                            </div>
+                            <div class="mt-4 mb-0">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="submit">Crear cuenta</button>
+
+                                </div>
+
+                            </div>
+                            <br>
+
+                            <div class="card-footer text-center py-3">
+                                <a id="publicidad_cuenta" href="@Url.Action("Index", "Login")" style="color: #a5c9c9;">
+                                    Iniciar Sesión
+                                </a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </div>
+</body>
+</html>

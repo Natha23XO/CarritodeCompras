@@ -1,0 +1,141 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tienda</title>
+    @*@Styles.Render("~/Content/css")*@
+    @*@Styles.Render("~/Content/PluginsCSS")*@
+    @*@Scripts.Render("~/bundles/modernizr")*@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/tienda.css" asp-append-version="true" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!--link rel="stylesheet" href="~/AppProyecto.styles.css" asp-append-version="true" /-->
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg" style="background-color: white;">
+        <div class="container-fluid justify-content-between">
+            <div style="padding-left: 12rem">
+            </div>
+            <a href="@Url.Action("Index","Tienda")" class="navbar-brand ps-3" style="width:180px !important"><img src="~/Imagenes/Logo/logo.png" /></a>
+            <!-- Navbar-->
+            @{
+                if (@ViewBag.admin == "USER")
+                {
+                    <form action="@Url.Action("Carrito","Tienda")" method="post" class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                        <button class="btn btn-close-dark" type="submit">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge bg-dark text-white ms-1 rounded-pill contador-carrito">0</span>
+                        </button>
+                    </form>
+                    <ul class="navbar-nav me-2">
+                        <li><a class="dropdown-item" href="@Url.Action("Compras","Tienda")">Mis Compras</a></li>
+                    </ul>
+                    <ul class="navbar-nav me-2">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i style="color:black" class="fas fa-user fa-fw"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="@Url.Action("CerrarSesion","Tienda")">Cerrar Sesión</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div style="padding-right: 12rem">
+                    </div>
+                }
+            }
+
+        </div>
+    </nav>
+    <main class="container-fluid">
+        @RenderBody()
+    </main>
+    <div class="position-fixed top-0 end-0 p-3 mt-5" style="z-index: 5">
+        <div id="toast-carrito" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="2000">
+            <div class="toast-body bg-success text-white">
+                <div class="d-flex">
+                    <i class="fas fa-check fa-2x"></i> <label style="margin-left: 10px !important">Producto añadido al carrito</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="position-fixed top-0 end-0 p-3 mt-5" style="z-index: 5">
+        <div id="toast-alerta" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
+            <div class="toast-body bg-danger text-white">
+                <div class="d-flex">
+                    <i class="fas fa-exclamation-circle fa-2x"></i> <label id="mensaje-error" class="ml-2" style="margin-left: 10px !important">Hubo un error</label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/loadingoverlay.min.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--script src="~/lib/swal/js/sweetalert2.all.min.js" asp-append-version="true"></!--script-->
+    <script src="~/js/carrito.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+
+    @* @await RenderSectionAsync("Scripts", required: false) *@
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @*@Scripts.Render("~/bundles/bootstrap")*@
+    @*@Scripts.Render("~/Content/PluginsJS")*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            obtenerCantidad();
+        })
+       
+        function obtenerCantidad() {
+            jQuery.ajax({
+                url: '@Url.Action("CantidadCarrito", "Tienda")',
+                type: "GET",
+                data: null,
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                success: function (data) {
+                    $(".contador-carrito").text(data.respuesta);
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+        }
+        $(document).on('click', '.btn-agregar-carrito', function (event) {
+            var idProducto = $(this).attr("data-idproducto")
+            console.log("ID del producto:", idProducto);
+            jQuery.ajax({
+                url: '@Url.Action("InsertarCarrito", "Tienda")',
+                type: "POST",
+                dataType: "json",
+                data: { idproducto: idProducto } ,
+                success: function (data) {
+                    var actual = parseInt($(".contador-carrito").text());
+                    if (data.respuesta != 0) {
+                        actual = actual + 1;
+                        $(".contador-carrito").text(actual);
+                        $('#toast-carrito').toast('show');
+                    }
+                },
+                error: function (error) {
+                    console.log(error)
+                },
+                beforeSend: function () {
+
+                },
+            });
+
+        });
+
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

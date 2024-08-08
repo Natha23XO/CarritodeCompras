@@ -1,0 +1,141 @@
+﻿@*
+@{
+    ViewData["Title"] = "Producto";
+}
+
+<h1>Producto</h1> *@
+
+@model AppProyecto.Models.Producto
+@{
+    ViewBag.Title = "Producto";
+    Layout = "~/Views/Shared/_Layout_Tienda.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Product Card</title>
+    <style>
+        
+        .custom-section {
+            background-color: #ffffff;
+            padding: 40px;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 30%; /* Ajuste de margen izquierdo */
+        }
+
+        .custom-container {
+            width: 100%;
+        }
+
+        .custom-column {
+            text-align: center;
+        }
+
+        .custom-img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .custom-card {
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            background-color: #FFA500;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+
+            .custom-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+        .custom-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FFA500;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+            .custom-btn:hover {
+                background-color: #e69100;
+            }
+    </style>
+</head>
+<body>
+    <section class="py-3">
+        <div class="text-center">
+            <span class="text-gray">
+                <a href="@Url.Action("Index","Tienda")" class="text-gray-a text-gray">Inicio</a>
+                <i class="fa-solid fa-angle-right mx-3 text-gray"></i>
+                Productos
+                <i class="fa-solid fa-angle-right mx-3 text-gray"></i>
+                @Html.DisplayTextFor(model => model.oMarca.Descripcion)
+                <i class="fa-solid fa-angle-right mx-3 text-gray"></i>
+                @Html.DisplayTextFor(model => model.Nombre)
+            </span>
+        </div>
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="data:image/@Html.DisplayTextFor(model => model.extension);base64,@Html.DisplayTextFor(model => model.base64)" alt="..."></div>
+                <div class="col-md-6">
+                    <div class="small mb-1">@Html.DisplayTextFor(model => model.oMarca.Descripcion)</div>
+                    <h1 class="display-5 fw-bolder">@Html.DisplayTextFor(model => model.Nombre)</h1>
+                    <div class="fs-5 mb-5">
+                        <span>S/. @Html.DisplayTextFor(model => model.Precio)</span>
+                    </div>
+                    <p class="lead">@Html.DisplayTextFor(model => model.Descripcion)</p>
+                    <div class="d-flex">
+                        <div>
+                            <a href="@Url.Action("Index", "Tienda")" class="custom-btn" style="margin-right: 20px;">
+                                <i class="fas fa-arrow-left" style="margin-right: 5px;"></i> Volver
+                            </a>
+                            <button class="custom-btn btn-agregar-carrito" style="margin-right: 20px;" data-idproducto="@Html.DisplayTextFor(model => model.IdProducto)">
+                                Agregar al carro
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    <!-- Enlace a Bootstrap JS (si es necesario) -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- Enlace a jQuery (si es necesario) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</body>
+</html>
+
+
+
+@section scripts {
+
+       
+    
+}

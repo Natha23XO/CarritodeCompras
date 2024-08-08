@@ -1,0 +1,589 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\3M.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\3M.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\ARTESCO.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\ARTESCO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\ARTLINE.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\ARTLINE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\CHAMEX.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\CHAMEX.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\FABER CASTELL.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\FABER CASTELL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\OVE.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\OVE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\STABILO.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\STABILO.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\VINIFAN.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\VINIFAN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Botones\\VerTodos.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Botones\\VerTodos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Logo\\InnovaLibrary.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Logo\\InnovaLibrary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Logo\\logo.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\10.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\11.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\12.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\13.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\14.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\37.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\38.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\38.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\4.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\45.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\45.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\46.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\47.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\5.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\6.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\7.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\7.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\8.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Productos\\9.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider1.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider2.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider3.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider4.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider5.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider6.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Sliders\\slider7.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Sliders\\slider7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Tarjetas\\maestro.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Tarjetas\\maestro.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Tarjetas\\master.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Tarjetas\\master.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Tarjetas\\paypal.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Tarjetas\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\Imagenes\\Tarjetas\\visa.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Tarjetas\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\css\\tienda.css",
+      "PackagePath": "staticwebassets\\css\\tienda.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\js\\carrito.js",
+      "PackagePath": "staticwebassets\\js\\carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\js\\loadingoverlay.min.js",
+      "PackagePath": "staticwebassets\\js\\loadingoverlay.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\datatable\\css\\datatables.css",
+      "PackagePath": "staticwebassets\\lib\\datatable\\css\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\datatable\\css\\datatables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatable\\css\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\datatable\\js\\datatables.js",
+      "PackagePath": "staticwebassets\\lib\\datatable\\js\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\datatable\\js\\datatables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatable\\js\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\fontawesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hugoc\\Desktop\\AppProyecto\\wwwroot\\lib\\swal\\js\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\swal\\js\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppProyecto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppProyecto.props",
+      "PackagePath": "build\\AppProyecto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppProyecto.props",
+      "PackagePath": "buildMultiTargeting\\AppProyecto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppProyecto.props",
+      "PackagePath": "buildTransitive\\AppProyecto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
